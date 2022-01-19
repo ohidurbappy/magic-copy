@@ -21,4 +21,4 @@ Run `Refresh.exe`
 - Press `CTRL+V`
 - Magic!
 
-[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/ohidurbappy)
+[!["Buy Me A Coffee"](https://cdn.buymeacoffee.com/buttons/default-yellow.png?w=3)](https://www.buymeacoffee.com/ohidurbappy)
