@@ -1,0 +1,60 @@
+package main
+
+import (
+	"context"
+
+	"golang.design/x/clipboard"
+	_ "golang.design/x/hotkey"
+	_ "golang.design/x/mainthread"
+)
+
+// initialize mainthread facility so that hotkey can be
+// properly registered to the system and handled by the
+// application.
+// func main() { mainthread.Init(fn) }
+func main() { // Use fn as the actual main function.
+	// var (
+	// 	mods = []hotkey.Modifier{hotkey.ModCtrl}
+	// 	k    = hotkey.KeyC
+	// )
+
+	// Register a desired hotkey.
+	// hk, err := hotkey.Register(mods, k)
+	// if err != nil {
+	// 	panic("hotkey registration failed")
+
+	// }
+
+	go func() {
+		ch := clipboard.Watch(context.Background(), clipboard.FmtText)
+		for data := range ch {
+			// print out clipboard data whenever it is changed
+			// println(string(data))
+			str := ""
+			if (string(data)) == "1a" {
+				str = ``
+
+			}
+
+			if str != "" {
+
+				clipboard.Write(clipboard.FmtText, []byte(str))
+			}
+
+		}
+
+	}()
+
+	loop := true
+	for loop == true {
+
+	}
+
+	//Start listen hotkey event whenever you feel it is ready.
+	// triggered := hk.Listen(context.Background())
+	// for range triggered {
+	// 	println("hotkey ctrl+s is triggered")
+	// 	//clipboard.Write(clipboard.FmtText, []byte("text data"))
+	// }
+
+}
