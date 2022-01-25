@@ -21,4 +21,6 @@ Run `Refresh.exe`
 - Press `CTRL+V`
 - Magic!
 
-[!["Buy Me A Coffee"](https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png?w=384&q=75)](https://www.buymeacoffee.com/ohidurbappy)
+<a href="https://www.buymeacoffee.com/ohidurbappy">
+<img width="220" height="auto" alt="Buy Me A Coffee" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png?w=384&q=75" />
+</a>
