@@ -20,7 +20,3 @@ Run `Refresh.exe`
 - Wait a second
 - Press `CTRL+V`
 - Magic!
-
-<a href="https://www.buymeacoffee.com/ohidurbappy">
-<img width="220" height="auto" alt="Buy Me A Coffee" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png?w=384&q=75" />
-</a>
